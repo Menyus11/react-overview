@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -8,14 +7,14 @@ function App() {
         <h1>React Áttekintés, témazáró feladatok</h1>
       </header>
 
-      <body className="App-body">
+      <div className="App-div">
         <h3>Mi a feladata egy csomagkezelőnek?</h3>
         <p>
           A csomagkezelők nagyban megkönnyítik a fejlesztők dolgát, mert a készülő projekthez számtalan előre megírt sablonnal, megoldással rendelkeznek.
           Melyek legtöbbjét szabadon felhasználhatják, átszabhatják, ezenkívül a programok függőségeit önállóan ellenőrzik, ha szükséges kezelik,
           így biztosítva a hosszútávú stabil működést.
         </p>
-        <br></br>
+        <br />
 
         <h3>Milyen csomagkezelőket ismer?</h3>
         <ul>
@@ -23,7 +22,7 @@ function App() {
           <li>PNPM - a Node.js alternatív csomagkezelője</li>
           <li>Yarn - szintén Javascripthez való csomagkezelő</li>
         </ul>
-        <br></br>
+        <br />
 
         <h3>Mi a különbség ezek működése között?</h3>
         <p>
@@ -42,7 +41,7 @@ function App() {
           Ez biztosítja, hogy a projekten dolgozó csapat ugyanazokat a verziójú függőségeket telepítse.
         </p>
 
-      </body>
+      </div>
 
     </div>
   );
